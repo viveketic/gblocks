@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>Gblocks</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body onload="init();">
+
+  
+
+  <div class="container">
+
+    <input class="textBox" 
+           width="290" 
+           type="text" id="textBox" value="539dc2"
+           maxLength="6"
+           onkeyup="changeColor();"/> 
+    <br><br>
+    <canvas class="avatarCanvas" 
+            id="avatarCanvas" width="290" height="290"></canvas>
+
+    <canvas class="gridCanvas" 
+            id="gridCanvas" width="290" height="290"
+            onclick="getBlockCorner(event)"></canvas>
+    <div class="downloadButton" align="right" onclick="downloadAvatar();">Download</div>
+  </div>
+
+</body>
+
+<script type="text/javascript">
+    
+  function init()
+  {
+      var textBox = document.getElementById("textBox");
+      var avatarCanvas = document.getElementById("avatarCanvas");
+      var avatarCanvasContext = avatarCanvas.getContext("2d");
+      avatarCanvasContext.fillStyle= backgroundColor;
+      avatarCanvasContext.fillRect(0, 0, avatarCanvasSize, avatarCanvasSize);
+      fillColor = "#" + textBox.value.toLowerCase();
+      
+      drawLines();
+  }
+  
+
+
+</script>
+
+</html>

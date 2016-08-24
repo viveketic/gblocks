@@ -1,0 +1,49 @@
+.container
+{
+    width:290px;height:500px;
+
+    position:absolute;
+    left:0; right:0; top:0; bottom:0;
+    
+    margin:auto;
+}
+
+.gridCanvas
+{
+    opacity:0.2;
+}
+
+.avatarCanvas
+{
+    cursor:none;
+    position:absolute;
+
+    background-color:#f0f0f0;
+}
+
+.textBox
+{
+    font-weight:bold;
+    font-size:28px;
+    border:0px;
+    color:#505050;
+    width:300px;
+}
+
+input
+{
+    outline:0;
+}
+
+::selection
+{
+    background-color: #FFA;
+}
+
+.downloadButton
+{
+    font-size:12px;
+    padding-top:5px;
+    color:#7f7fff;
+    cursor:pointer;
+}
