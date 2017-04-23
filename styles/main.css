@@ -13,16 +13,14 @@
     opacity:0.2;
 }
 
-.avatarCanvas
-{
+.avatarCanvas {
     cursor:none;
     position:absolute;
 
     background-color:#f0f0f0;
 }
 
-.textBox
-{
+.textBox {
     font-weight:bold;
     font-size:28px;
     border:0px;
@@ -30,20 +28,30 @@
     width:300px;
 }
 
-input
-{
+input {
     outline:0;
 }
 
-::selection
-{
+::selection {
     background-color: #FFA;
 }
 
-.downloadButton
-{
+.downloadButton {
     font-size:12px;
     padding-top:5px;
     color:#7f7fff;
     cursor:pointer;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #e9e9e9;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #e9e9e9;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #e9e9e9;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #e9e9e9;
 }
