@@ -1,12 +1,10 @@
-#Gblocks
+# Gblocks
 Web app to draw github avatars.
 
-#Use
-Give hexadecimal color code at textbox
-and click on square blocks to draw your avatar. 
+# Use
+Give hexadecimal color code at textbox and click on square blocks to draw your avatar. 
 To clear the block, click again in same block.
 
-
-##Thanks To
-1. Tim Down for [rgb-to-hex](http://stackoverflow.com/questions/5623838/rgb-to-hex-and-hex-to-rgb).
-2. lwburk for [get-pixel-color](http://stackoverflow.com/questions/6735470/get-pixel-color-from-canvas-on-mouseover).
+## References
+* [RGB to Hex and Hex to RGB](http://stackoverflow.com/a/5624139).
+* [Get pixel color from canvas, on mouseover](http://stackoverflow.com/a/6736135)
