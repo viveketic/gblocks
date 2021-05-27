@@ -1,4 +1,4 @@
-## Gblocks
+## gblocks
 Web app to draw github avatars.
 
 ### Use
